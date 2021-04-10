@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ReservaRepository extends JpaRepository<Reserva, Integer>{
 
-	public List<Reserva> getReservasUsuario();
+//	public List<Reserva> getReservasUsuario();
 }
